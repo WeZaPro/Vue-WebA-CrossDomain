@@ -45,15 +45,23 @@ export default {
   //   //HelloWorld,
   // },
   data() {
-    return {};
+    return {
+      loggedIn: false,
+      profile: {},
+      displayName: "",
+      userId: "",
+      alert: "",
+      getParam: "",
+    };
   },
   methods: {
     async siteB() {
       //console.log("openLineChat--> ");
       //window.open("https://wezapro.github.io/LineMessage", "_blank");
-      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
-      // await liff.init({ liffId: "1656824759-dzZxJlQ9" });
-      await liff.init({ liffId: "1656824759-qbyK4305" });
+      //window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+      window.open("https://liff.line.me/1656824759-dzZxJlQ9", "_blank");
+      await liff.init({ liffId: "1656824759-dzZxJlQ9" });
+      //await liff.init({ liffId: "1656824759-qbyK4305" });
 
       const profile = await liff.getProfile();
 
