@@ -60,7 +60,8 @@ export default {
       //window.open("https://wezapro.github.io/LineMessage", "_blank");
       //window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
       // window.open("https://liff.line.me/1656824759-dzZxJlQ9", "_blank");
-      window.open("line://app/1656824759-dzZxJlQ9");
+
+      //window.open("line://app/1656824759-dzZxJlQ9");
       await liff.init({ liffId: "1656824759-qbyK4305" });
       //await liff.init({ liffId: "1656824759-qbyK4305" });
 
@@ -74,11 +75,11 @@ export default {
               // text: `Register/${profile.displayName}`,
               text: `Register`,
             },
-            {
-              type: "text",
-              text: `userId : ${profile.userId}`,
-              //text: `Register`,
-            },
+            // {
+            //   type: "text",
+            //   text: `userId : ${profile.userId}`,
+            //   //text: `Register`,
+            // },
           ])
           .then(() => {
             window.alert(`Message sent Register `);
