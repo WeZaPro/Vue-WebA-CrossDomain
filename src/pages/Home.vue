@@ -1,5 +1,8 @@
 <template>
   <h1>HOME PAGE</h1>
+  <div id="btn">
+    <button @click="siteB">siteB</button>
+  </div>
 </template>
 
 <script>
@@ -23,7 +26,7 @@ export default {
   },
   created() {
     // window.location.href = "https://liff.line.me/1656824759-lQKpOazZ";
-    window.location.href = "https://vue-webb-crossdomain.onrender.com";
+    //window.location.href = "https://vue-webb-crossdomain.onrender.com";
   },
   mounted() {
     // this.$router.push("liff");
@@ -60,6 +63,10 @@ export default {
     //   });
   },
   methods: {
+    siteB() {
+      console.log("openLineChat--> ");
+      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+    },
     // async getProfile() {
     //   await liff.getProfile().then((profile) => {
     //     console.log("profile--> ", profile);
