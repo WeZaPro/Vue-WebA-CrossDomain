@@ -24,12 +24,12 @@
       <!-- <a href="https://liff.line.me/1656824759-dzZxJlQ9" target="_blank">
         Web Site B
       </a> -->
-      <a href="https://wezapro.github.io/LineMessage"> Web Site B </a>
+      <!-- <a href="https://wezapro.github.io/LineMessage"> Web Site B </a> -->
     </div>
 
-    <!-- <div id="btn">
+    <div id="btn">
       <button @click="siteB">siteB</button>
-    </div> -->
+    </div>
 
     <router-view></router-view>
   </div>
@@ -37,7 +37,7 @@
 
 <script>
 //import HelloWorld from "./components/HelloWorld.vue";
-//import liff from "@line/liff";
+import liff from "@line/liff";
 
 export default {
   // name: "App",
@@ -48,10 +48,30 @@ export default {
     return {};
   },
   methods: {
-    //siteB() {
-    //console.log("openLineChat--> ");
-    // window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
-    //},
+    async siteB() {
+      //console.log("openLineChat--> ");
+      window.open("https://wezapro.github.io/LineMessage", "_blank");
+      // await liff.init({ liffId: "1656824759-dzZxJlQ9" });
+      await liff.init({ liffId: "1656824759-qbyK4305" });
+
+      if (liff.isLoggedIn()) {
+        await liff
+          .sendMessages([
+            {
+              type: "text",
+              text: `Register/${profile.displayName}`,
+            },
+          ])
+          .then(() => {
+            window.alert(`Message sent Register `);
+          })
+          .catch((error) => {
+            window.alert("Error sending message: " + error);
+          });
+      } else {
+        liff.login();
+      }
+    },
   },
 };
 </script>
