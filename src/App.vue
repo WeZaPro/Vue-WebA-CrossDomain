@@ -83,10 +83,13 @@ export default {
           ])
           .then(() => {
             window.alert(`Message sent Register `);
+            window.open("line://app/1656824759-dzZxJlQ9");
           })
           .catch((error) => {
             window.alert("Error sending message: " + error);
           });
+
+        //
       } else {
         liff.login();
       }
