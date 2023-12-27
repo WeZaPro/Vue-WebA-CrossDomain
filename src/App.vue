@@ -12,6 +12,11 @@
             >About</router-link
           >
         </li>
+        <li>
+          <router-link to="/liff" class="text-white decor-none"
+            >Liff</router-link
+          >
+        </li>
       </ul>
     </nav>
     <h1>WEB FIRST PAGE</h1>

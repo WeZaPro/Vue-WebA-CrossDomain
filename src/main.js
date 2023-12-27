@@ -5,11 +5,13 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import Home from "./pages/Home.vue";
 import About from "./pages/About.vue";
+import Liff from "./pages/LIFF.vue";
 //#####
 
 const routes = [
   {
     path: "/",
+    redirect: "/liff",
     name: "home",
     component: Home,
   },
@@ -17,6 +19,11 @@ const routes = [
     path: "/about",
     name: "about",
     component: About,
+  },
+  {
+    path: "/liff",
+    name: "liff",
+    component: Liff,
   },
 ];
 const router = createRouter({
