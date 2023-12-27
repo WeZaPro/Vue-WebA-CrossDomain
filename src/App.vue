@@ -68,7 +68,8 @@ export default {
       //const profile = await liff.getProfile();
 
       if (liff.isLoggedIn()) {
-        window.open("line://app/1656824759-dzZxJlQ9");
+        //window.open("line://app/1656824759-dzZxJlQ9");
+        window.open("https://liff.line.me/1656824759-dzZxJlQ9", "_blank");
 
         await liff
           .sendMessages([
