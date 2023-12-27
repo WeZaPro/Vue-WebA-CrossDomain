@@ -68,6 +68,8 @@ export default {
       //const profile = await liff.getProfile();
 
       if (liff.isLoggedIn()) {
+        window.open("line://app/1656824759-dzZxJlQ9");
+
         await liff
           .sendMessages([
             {
@@ -83,7 +85,6 @@ export default {
           ])
           .then(() => {
             window.alert(`Message sent Register `);
-            window.open("line://app/1656824759-dzZxJlQ9");
           })
           .catch((error) => {
             window.alert("Error sending message: " + error);
