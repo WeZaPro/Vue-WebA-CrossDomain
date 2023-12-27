@@ -28,7 +28,7 @@
     </div>
 
     <div id="btn">
-      <button @click="siteB">siteB</button>
+      <button @click="siteB">siteB---</button>
     </div>
 
     <router-view></router-view>
@@ -71,25 +71,25 @@ export default {
         //window.open("line://app/1656824759-dzZxJlQ9");
         window.open("https://liff.line.me/1656824759-dzZxJlQ9", "_blank");
 
-        await liff
-          .sendMessages([
-            {
-              type: "text",
-              // text: `Register/${profile.displayName}`,
-              text: `Register`,
-            },
-            // {
-            //   type: "text",
-            //   text: `userId : ${profile.userId}`,
-            //   //text: `Register`,
-            // },
-          ])
-          .then(() => {
-            window.alert(`Message sent Register `);
-          })
-          .catch((error) => {
-            window.alert("Error sending message: " + error);
-          });
+        // await liff
+        //   .sendMessages([
+        //     {
+        //       type: "text",
+        //       // text: `Register/${profile.displayName}`,
+        //       text: `Register`,
+        //     },
+        //     // {
+        //     //   type: "text",
+        //     //   text: `userId : ${profile.userId}`,
+        //     //   //text: `Register`,
+        //     // },
+        //   ])
+        //   .then(() => {
+        //     window.alert(`Message sent Register `);
+        //   })
+        //   .catch((error) => {
+        //     window.alert("Error sending message: " + error);
+        //   });
 
         //
       } else {
