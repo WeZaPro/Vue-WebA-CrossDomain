@@ -16,7 +16,10 @@
     </nav>
     <h1>WEB FIRST PAGE</h1>
     <div>
-      <a href="https://vue-webb-crossdomain.onrender.com/about" target="_blank">
+      <a
+        href="https://vue-webb-crossdomain.onrender.com/#/about"
+        target="_blank"
+      >
         Web Site B
       </a>
     </div>
