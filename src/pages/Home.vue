@@ -1,8 +1,8 @@
 <template>
   <h1>HOME PAGE</h1>
-  <div id="btn">
+  <!-- <div id="btn">
     <button @click="siteB">siteB</button>
-  </div>
+  </div> -->
 </template>
 
 <script>
@@ -63,10 +63,10 @@ export default {
     //   });
   },
   methods: {
-    siteB() {
-      console.log("openLineChat--> ");
-      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
-    },
+    // siteB() {
+    //   console.log("openLineChat--> ");
+    //   window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+    // },
     // async getProfile() {
     //   await liff.getProfile().then((profile) => {
     //     console.log("profile--> ", profile);

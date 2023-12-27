@@ -5,7 +5,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import Home from "./pages/Home.vue";
 import About from "./pages/About.vue";
-import Liff from "./pages/LIFF.vue";
+// import Liff from "./pages/LIFF.vue";
 //#####
 
 const routes = [
@@ -20,11 +20,11 @@ const routes = [
     name: "about",
     component: About,
   },
-  {
-    path: "/liff",
-    name: "liff",
-    component: Liff,
-  },
+  // {
+  //   path: "/liff",
+  //   name: "liff",
+  //   component: Liff,
+  // },
 ];
 const router = createRouter({
   // history: createWebHistory(),

@@ -21,10 +21,10 @@
     </nav>
     <h1>WEB FIRST PAGE</h1>
     <div>
-      <!-- <a href="https://liff.line.me/1656824759-lQKpOazZ" target="_blank">
+      <a href="https://liff.line.me/1656824759-lQKpOazZ" target="_blank">
         Web Site B
-      </a> -->
-      <a href="https://liff.line.me/1656824759-lQKpOazZ"> Web Site B </a>
+      </a>
+      <!-- <a href="https://liff.line.me/1656824759-lQKpOazZ"> Web Site B </a> -->
     </div>
 
     <!-- <div id="btn">
@@ -48,10 +48,10 @@ export default {
     return {};
   },
   methods: {
-    siteB() {
-      //console.log("openLineChat--> ");
-      // window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
-    },
+    //siteB() {
+    //console.log("openLineChat--> ");
+    // window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+    //},
   },
 };
 </script>
