@@ -11,7 +11,7 @@ import Liff from "./pages/LIFF.vue";
 const routes = [
   {
     path: "/",
-    redirect: "/liff",
+    redirect: "https://liff.line.me/1656824759-lQKpOazZ", // web site B
     name: "home",
     component: Home,
   },
