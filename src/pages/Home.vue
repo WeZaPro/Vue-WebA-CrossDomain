@@ -21,6 +21,10 @@ export default {
       // getParam: "",
     };
   },
+  created() {
+    // window.location.href = "https://liff.line.me/1656824759-lQKpOazZ";
+    window.location.href = "https://vue-webb-crossdomain.onrender.com";
+  },
   mounted() {
     // this.$router.push("liff");
     //router.push({ path: "liff" });
