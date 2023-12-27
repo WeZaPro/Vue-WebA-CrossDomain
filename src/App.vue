@@ -61,34 +61,34 @@ export default {
       //window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
       // window.open("https://liff.line.me/1656824759-dzZxJlQ9", "_blank");
       window.open("line://app/1656824759-dzZxJlQ9");
-      //await liff.init({ liffId: "1656824759-qbyK4305" });
+      await liff.init({ liffId: "1656824759-qbyK4305" });
       //await liff.init({ liffId: "1656824759-qbyK4305" });
 
       //const profile = await liff.getProfile();
 
-      // if (liff.isLoggedIn()) {
-      //   await liff
-      //     .sendMessages([
-      //       {
-      //         type: "text",
-      //         text: `Register/${profile.displayName}`,
-      //         //text: `Register`,
-      //       },
-      //       {
-      //         type: "text",
-      //         text: `userId : ${profile.userId}`,
-      //         //text: `Register`,
-      //       },
-      //     ])
-      //     .then(() => {
-      //       window.alert(`Message sent Register `);
-      //     })
-      //     .catch((error) => {
-      //       window.alert("Error sending message: " + error);
-      //     });
-      // } else {
-      //   liff.login();
-      // }
+      if (liff.isLoggedIn()) {
+        await liff
+          .sendMessages([
+            {
+              type: "text",
+              // text: `Register/${profile.displayName}`,
+              text: `Register`,
+            },
+            {
+              type: "text",
+              text: `userId : ${profile.userId}`,
+              //text: `Register`,
+            },
+          ])
+          .then(() => {
+            window.alert(`Message sent Register `);
+          })
+          .catch((error) => {
+            window.alert("Error sending message: " + error);
+          });
+      } else {
+        liff.login();
+      }
     },
   },
 };
