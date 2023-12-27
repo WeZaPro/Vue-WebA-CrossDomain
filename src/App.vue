@@ -16,10 +16,7 @@
     </nav>
     <h1>WEB FIRST PAGE</h1>
     <div>
-      <a
-        href="https://fb6d-223-204-233-188.ngrok-free.app/about"
-        target="_blank"
-      >
+      <a href="https://vue-webb-crossdomain.onrender.com/about" target="_blank">
         Web Site B
       </a>
     </div>
