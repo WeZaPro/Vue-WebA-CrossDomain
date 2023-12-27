@@ -21,7 +21,7 @@
     </nav>
     <h1>WEB FIRST PAGE</h1>
     <div>
-      <a href="https://liff.line.me/1656824759-lQKpOazZ" target="_blank">
+      <a href="https://liff.line.me/1656824759-dzZxJlQ9" target="_blank">
         Web Site B
       </a>
       <!-- <a href="https://liff.line.me/1656824759-lQKpOazZ"> Web Site B </a> -->
