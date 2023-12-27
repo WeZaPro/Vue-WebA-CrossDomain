@@ -1,5 +1,6 @@
 # Logs
 node_modules
+bacuup
 logs
 *.log
 npm-debug.log*
