@@ -2,7 +2,7 @@
 
 <template>
   <div id="app">
-    <nav>
+    <!-- <nav>
       <ul>
         <li>
           <router-link to="/" class="text-white decor-none">Home</router-link>
@@ -12,13 +12,13 @@
             >About</router-link
           >
         </li>
-        <!-- <li>
+        <li>
           <router-link to="/liff" class="text-white decor-none"
             >Liff</router-link
           >
-        </li> -->
+        </li>
       </ul>
-    </nav>
+    </nav> -->
     <h1>WEB FIRST PAGE</h1>
     <div>
       <!-- <a href="https://liff.line.me/1656824759-dzZxJlQ9" target="_blank">
@@ -50,17 +50,25 @@ export default {
   methods: {
     async siteB() {
       //console.log("openLineChat--> ");
-      window.open("https://wezapro.github.io/LineMessage", "_blank");
+      //window.open("https://wezapro.github.io/LineMessage", "_blank");
+      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
       // await liff.init({ liffId: "1656824759-dzZxJlQ9" });
       await liff.init({ liffId: "1656824759-qbyK4305" });
+
+      const profile = await liff.getProfile();
 
       if (liff.isLoggedIn()) {
         await liff
           .sendMessages([
             {
               type: "text",
-              // text: `Register/${profile.displayName}`,
-              text: `Register`,
+              text: `Register/${profile.displayName}`,
+              //text: `Register`,
+            },
+            {
+              type: "text",
+              text: `userId : ${profile.userId}`,
+              //text: `Register`,
             },
           ])
           .then(() => {
