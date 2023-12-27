@@ -12,26 +12,51 @@
             >About</router-link
           >
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/liff" class="text-white decor-none"
             >Liff</router-link
           >
-        </li>
+        </li> -->
       </ul>
     </nav>
     <h1>WEB FIRST PAGE</h1>
-    <div>
+    <!-- <div>
       <a
         href="https://vue-webb-crossdomain.onrender.com/#/about"
         target="_blank"
       >
         Web Site B
       </a>
+    </div> -->
+
+    <div id="btn">
+      <button @click="siteB">siteB</button>
     </div>
 
     <router-view></router-view>
   </div>
 </template>
+
+<script>
+//import HelloWorld from "./components/HelloWorld.vue";
+//import liff from "@line/liff";
+
+export default {
+  // name: "App",
+  // components: {
+  //   //HelloWorld,
+  // },
+  data() {
+    return {};
+  },
+  methods: {
+    siteB() {
+      //console.log("openLineChat--> ");
+      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+    },
+  },
+};
+</script>
 
 <style scoped>
 nav ul {
