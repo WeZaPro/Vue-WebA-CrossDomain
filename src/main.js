@@ -3,9 +3,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import { createGtm } from "@gtm-support/vue-gtm";
 import { createApp } from "vue";
 import App from "./App.vue";
-import Home from "./pages/Home.vue";
-import About from "./pages/About.vue";
-import Liff from "./pages/LIFF.vue";
+// import Home from "./pages/Home.vue";
+// import About from "./pages/About.vue";
+// import Liff from "./pages/LIFF.vue";
 //#####
 
 const routes = [
