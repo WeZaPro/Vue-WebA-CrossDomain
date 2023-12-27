@@ -59,7 +59,8 @@ export default {
           .sendMessages([
             {
               type: "text",
-              text: `Register/${profile.displayName}`,
+              // text: `Register/${profile.displayName}`,
+              text: `Register`,
             },
           ])
           .then(() => {
