@@ -20,18 +20,16 @@
       </ul>
     </nav>
     <h1>WEB FIRST PAGE</h1>
-    <!-- <div>
-      <a
-        href="https://vue-webb-crossdomain.onrender.com/#/about"
-        target="_blank"
-      >
+    <div>
+      <!-- <a href="https://liff.line.me/1656824759-lQKpOazZ" target="_blank">
         Web Site B
-      </a>
-    </div> -->
-
-    <div id="btn">
-      <button @click="siteB">siteB</button>
+      </a> -->
+      <a href="https://liff.line.me/1656824759-lQKpOazZ"> Web Site B </a>
     </div>
+
+    <!-- <div id="btn">
+      <button @click="siteB">siteB</button>
+    </div> -->
 
     <router-view></router-view>
   </div>
@@ -52,7 +50,7 @@ export default {
   methods: {
     siteB() {
       //console.log("openLineChat--> ");
-      window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
+      // window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
     },
   },
 };
