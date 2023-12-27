@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@gtm-support/vue-gtm": "^2.2.0",
+    "@line/liff": "^2.23.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
