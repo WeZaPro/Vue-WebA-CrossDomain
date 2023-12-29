@@ -60,7 +60,7 @@ export default {
       //console.log("openLineChat--> ");
       //window.open("https://wezapro.github.io/LineMessage", "_blank");
       //window.open("https://liff.line.me/1656824759-lQKpOazZ", "_blank");
-      window.open(`https://liff.line.me/1656824759-dzZxJlQ9`, "_blank");
+      window.open(`https://liff.line.me/1656824759-qbyK4305`, "_blank");
 
       //await liff.init({ liffId: "1656824759-qbyK4305" });
 
