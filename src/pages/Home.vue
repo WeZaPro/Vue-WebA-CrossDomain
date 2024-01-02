@@ -5,7 +5,7 @@
     <button @click="siteB">siteB</button>
   </div> -->
     <a href="https://line.me/ti/p/@985lgfum">
-      <button id="test-btn">LINE @</button>
+      <button id="btn">LINE @</button>
     </a>
   </div>
 </template>
@@ -118,8 +118,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f7f8f8;
+  background-color: rgb(34, 0, 255);
   margin-top: 60px;
+  width: 300px; /* was 150, now 150px */
+  height: 150px;
 }
 
 #test-btn {
