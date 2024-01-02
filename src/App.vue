@@ -3,7 +3,7 @@
 <template>
   <div id="app">
     <nav>
-      <ul>
+      <!-- <ul>
         <li>
           <router-link to="/" class="text-white decor-none">Home</router-link>
         </li>
@@ -17,9 +17,9 @@
             >Contact</router-link
           >
         </li>
-      </ul>
+      </ul> -->
     </nav>
-    <h1>WEB FIRST PAGE</h1>
+    <!-- <h1>WEB FIRST PAGE</h1> -->
     <div>
       <!-- <a href="https://liff.line.me/1656824759-dzZxJlQ9" target="_blank">
         Web Site B
@@ -27,9 +27,9 @@
       <!-- <a href="https://wezapro.github.io/LineMessage"> Web Site B </a> -->
     </div>
 
-    <div id="btn">
+    <!-- <div id="btn">
       <button @click="siteB">SITE B</button>
-    </div>
+    </div> -->
 
     <router-view></router-view>
   </div>

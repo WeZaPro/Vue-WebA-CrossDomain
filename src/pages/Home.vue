@@ -3,6 +3,9 @@
   <!-- <div id="btn">
     <button @click="siteB">siteB</button>
   </div> -->
+  <a href="https://line.me/ti/p/@985lgfum">
+    <button>LINE @</button>
+  </a>
 </template>
 
 <script>

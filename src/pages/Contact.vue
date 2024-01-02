@@ -1,10 +1,10 @@
 <template>
-  <h1>This is Contact Page</h1>
+  <h1>CONTACT PAGE</h1>
   <div id="contact">
     <!-- <a href="https://vue-weba-crossdomain.onrender.com/contact"> -->
-    <a href="https://line.me/ti/p/@985lgfum">
+    <!-- <a href="https://line.me/ti/p/@985lgfum">
       <button>LINE @</button>
-    </a>
+    </a> -->
     <router-view></router-view>
   </div>
 </template>
