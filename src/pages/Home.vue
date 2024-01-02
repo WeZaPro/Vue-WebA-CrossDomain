@@ -1,11 +1,13 @@
 <template>
-  <h1>HOME PAGE</h1>
-  <!-- <div id="btn">
+  <div id="app">
+    <h1>HOME PAGE</h1>
+    <!-- <div id="btn">
     <button @click="siteB">siteB</button>
   </div> -->
-  <a href="https://line.me/ti/p/@985lgfum">
-    <button id="test-btn">LINE @</button>
-  </a>
+    <a href="https://line.me/ti/p/@985lgfum">
+      <button id="test-btn">LINE @</button>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -107,7 +109,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #3f464d;
   margin-top: 60px;
 }
 
@@ -122,8 +124,8 @@ export default {
 
 #test-btn {
   color: #cc00cc;
-  background-color: yellow;
-  width: 150px; /* was 150, now 150px */
-  height: 50px;
+  background-color: rgb(34, 0, 255);
+  width: 300px; /* was 150, now 150px */
+  height: 300px;
 }
 </style>
