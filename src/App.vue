@@ -2,7 +2,7 @@
 
 <template>
   <div id="app">
-    <!-- <nav>
+    <nav>
       <ul>
         <li>
           <router-link to="/" class="text-white decor-none">Home</router-link>
@@ -13,12 +13,12 @@
           >
         </li>
         <li>
-          <router-link to="/liff" class="text-white decor-none"
-            >Liff</router-link
+          <router-link to="/contact" class="text-white decor-none"
+            >Contact</router-link
           >
         </li>
       </ul>
-    </nav> -->
+    </nav>
     <h1>WEB FIRST PAGE</h1>
     <div>
       <!-- <a href="https://liff.line.me/1656824759-dzZxJlQ9" target="_blank">
