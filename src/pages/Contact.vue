@@ -5,6 +5,7 @@
     <a href="https://line.me/ti/p/@985lgfum">
       <button>LINE @</button>
     </a>
+    <router-view></router-view>
   </div>
 </template>
 <script>
