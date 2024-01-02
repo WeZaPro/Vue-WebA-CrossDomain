@@ -5,6 +5,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import Home from "./pages/Home.vue";
 import About from "./pages/About.vue";
+import Contact from "./pages/Contact.vue";
 // import Liff from "./pages/LIFF.vue";
 //#####
 
@@ -19,6 +20,11 @@ const routes = [
     path: "/about",
     name: "about",
     component: About,
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: Contact,
   },
   // {
   //   path: "/liff",
